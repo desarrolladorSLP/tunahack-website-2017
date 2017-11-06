@@ -1,0 +1,149 @@
+[
+  {
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "title": "Creative Mornings",
+    "subTitle": "&nbsp;",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "09:00",
+    "endTime": "10:00",
+    "title": "Registro",
+    "subTitle": "&nbsp;",
+    "location": "Salas 1 y 2 de la biblioteca"
+  },
+  {
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "title": "Apertura",
+    "subTitle": "&nbsp;",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "title": "Conferencia magistral",
+    "subTitle": "&nbsp;",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "title": "Nearsoft",
+    "subTitle": "Roberto Martínez",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "title": "Expert nights/mornings",
+    "subTitle": "&nbsp;",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "12:00",
+    "endTime": "16:00",
+    "title": "Taller Web Semántica",
+    "subTitle": "Dr. Edgar Castillo",
+    "location": "Sala 2 - Biblioteca"
+  },
+  {
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "title": "Diseño de software: Aprendizaje vívido",
+    "subTitle": "Dr. Héctor Gerardo Pérez",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "13:00",
+    "endTime": "14:00",
+    "title": "UX Nights",
+    "subTitle": "Mariana",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "title": "Robots Ondas Cerebrales",
+    "subTitle": "Dot Innovation",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "title": "Epic Queen",
+    "subTitle": "&nbsp;",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "title": "Cómo empezar a emprender en Tech?",
+    "subTitle": "Startuplab",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "17:00",
+    "endTime": "18:00",
+    "title": "Panorama de inversión a proyectos de Tech",
+    "subTitle": "&nbsp;",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "title": "Proceso creativo",
+    "subTitle": "Empresa de videojuegos",
+    "location": "Sala 2 - Biblioteca"
+  },
+  {
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "title": "Taller",
+    "subTitle": "DesarrolladorSLP",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "title": "Tecnología, maker o diseño",
+    "subTitle": "Charlas y cheves",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "title": "Imagen corporativa",
+    "subTitle": "KUBAL",
+    "location": "Sala 2 - Biblioteca"
+  },
+  {
+    "startTime": "20:00",
+    "endTime": "21:00",
+    "title": "Noche de libre pensadores",
+    "subTitle": "PRISMATIC",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "20:00",
+    "endTime": "21:00",
+    "title": "Satélites Inventors House",
+    "subTitle": "&nbsp;",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "21:00",
+    "endTime": "23:00",
+    "title": "Fuck up Nights",
+    "subTitle": "&nbsp;",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "21:00",
+    "endTime": "23:00",
+    "title": "H/F",
+    "subTitle": "&nbsp;",
+    "location": "Sala 1 - Biblioteca"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "startTime": "09:00",
+    "endTime": "11:00",
+    "title": "Cómo empezar a emprender en Tech?",
+    "subTitle": "Startuplab",
+    "location": "Casa rosa"
+  },
+  {
+    "startTime": "09:00",
+    "endTime": "13:00",
+    "title": "Taller para niños",
+    "subTitle": "&nbsp;",
+    "location": "Sala 1 - Biblioteca"
+  },
+  {
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "title": "Tecnovation",
+    "subTitle": "&nbsp;",
+    "location": "Casa Rosa"
+  },
+  {
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "title": "Cierre",
+    "subTitle": "&nbsp;",
+    "location": "Casa rosa"
+  }
+]
