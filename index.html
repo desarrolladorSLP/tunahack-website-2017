@@ -14,21 +14,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:url" content="http://tunatech.mx/index.html" />
-    <meta property="og:title" content="TunaTech 2017" />
-    <meta property="og:description" content="Tecnología, ciencia, innovación: Pláticas y talleres" />
-    <meta property="og:image" content="http://tunatech.mx/assets/images/share-image.png" />
+    <meta property="og:url" content="http://tunatech.mx/tunahack/index.html" />
+    <meta property="og:title" content="TunaHack 2017" />
+    <meta property="og:description" content="Hackaton, Hack, UPSLP, Tecnología, ciencia, innovación: Pláticas y talleres" />
+    <meta property="og:image" content="http://tunatech.mx/tunahack/assets/images/share-image.png" />
 
-    <title>TunaTech 2017</title>
+    <title>TunaHack 2017</title>
 
     <!-- css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css?v=1">
+    <link rel="stylesheet" href="assets/css/tunahack.css?v=1">
 </head>
 
 <body data-spy="scroll" data-target="#site-nav" ng-controller="HomeController as vm">
+    <div id="top" style="display:none"></div>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGCLSH7"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -58,12 +60,12 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <!-- navigation menu -->
-                    <li class="active"><a data-scroll href="#about">Acerca de</a></li>
+                    <li class="active"><a data-scroll href="#about"><i class='ion-bug'></i> Acerca de</a></li>
                     <!-- <li><a data-scroll href="#speakers">Expositores</a></li>
                     <li><a data-scroll href="#schedule">Agenda</a></li> -->
-                    <li><a data-scroll href="#partner">Patrocinadores</a></li>
+                    <li><a data-scroll href="#partner"><i class='ion-trophy'></i>  Patrocinadores</a></li>
                     <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
-                    <li><a data-scroll href="#faq">Preguntas</a></li>
+                    <li><a data-scroll href="#faq"><i class="ion-help-circled"></i> Preguntas</a></li>
                     <!--<li><a data-scroll href="#photos">Fotos</a></li>-->
 
                 </ul>
@@ -88,7 +90,7 @@
             <div class="row">
                 <div class="col-sm-6">
 
-                    <h3 class="section-title purple">Acerca de</h3>
+                    <h3 class="section-title purple"><i class='ion-bug'></i>  Acerca de</h3>
                     <p style="text-align: justify">TunaHack es un evento enfocado en impulsar la tecnología, este evento complementa las actividades del TunaTech 2017.
                     </p>
                 </div>
@@ -96,7 +98,7 @@
 
                 <div class="col-sm-6">
 
-                    <h3 class="section-title multiple-title purple">Objetivo</h3>
+                    <h3 class="section-title multiple-title purple"><i class="glyphicon glyphicon-hand-right"></i> Objetivo</h3>
 
                     <p style="text-align: justify">El objetivo de TunaHack sera generar tecnologia que impacte socialmente a Mexico y a San Luis Potosi.</p>
 
@@ -106,7 +108,7 @@
                         <li>Have dedicated 2-to-1 meetings with the experts</li>
                         <li>Reach more consumers for less by learning new digital media skills</li>
                         <li>Save money when spending in online advertising</li>
-                    
+
                     </ul>-->
 
                 </div>
@@ -116,7 +118,7 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="section-title purple">Comunidades</h3>
+                    <h3 class="section-title purple"><i class="ion-android-contacts"></i> Comunidades</h3>
                 </div>
             </div>
 
@@ -139,7 +141,7 @@
                 <div class="col-sm-3">
 
                     <i class="ion-ios-location"></i>
-                    <h3>San Luis Potosí, S.L.P.<br>México</h3>
+                    <h3>San Luis Potosí, S.L.P.<br>México</h3>
 
                 </div>
                 <div class="col-sm-3">
@@ -164,7 +166,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Patrocinadores</h3>
+                    <h3 class="section-title"><i class='ion-trophy'></i> Patrocinadores</h3>
                 </div>
             </div>
             <div class="row">
@@ -211,7 +213,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Preguntas frecuentes</h3>
+                    <h3 class="section-title"><i class='ion-help-circled'></i> Preguntas Frecuentes</h3>
                 </div>
             </div>
             <div class="row">
@@ -508,7 +510,7 @@
                 <div class="col-md-12">
                     <h3 class="section-title">Fotos... Proximamente</h3>
                 </div>
-            </div>         
+            </div>
         </div>
     </section>-->
 
@@ -531,6 +533,9 @@
             </div>
         </div>
     </section> -->
+    <div class='back-to-top'>
+        <a href='#top'><i class='glyphicon glyphicon-chevron-up'></i></a>
+    </div>
 
     <footer class="site-footer">
         <div class="container">
@@ -548,6 +553,8 @@
         </div>
     </footer>
 
+
+
     <!-- script -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -556,6 +563,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
