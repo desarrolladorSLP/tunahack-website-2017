@@ -641,6 +641,33 @@ ul li {
 .logo-container-sponsor .logo {
   max-height: 290px;
   max-width: 80%;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo-container-sponsor .logo:hover{
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }
 
 #schedule {
