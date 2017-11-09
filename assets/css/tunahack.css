@@ -7,9 +7,9 @@
     height: 40px;
     text-align: center;
     line-height: 40px;
-    background-color: rgba(80,0,227,0.8);
-    color: #299ecd;
-    border-color: #299ecd;
+    background-color: rgba(76,124,255,1);
+    color: #4c7cff;
+    border-color: #4c7cff;
     transform: rotate(45deg);
 
     -webkit-transform: rotate(45deg);
@@ -23,7 +23,7 @@
 }
 
 .back-to-top:hover{
-  background-color: rgba(140,80,240,0.8);
+  background-color: rgba(76,124,255,0.8);
 }
 
 .back-to-top a {
@@ -48,7 +48,7 @@
   transition: all 0.3s ease-in-out;
 }
 .rule:hover{
-  color:rgba(140,80,240,1);
+  color:rgba(76,124,255,1);
 }
 .rule i{
   font-size: 3em;

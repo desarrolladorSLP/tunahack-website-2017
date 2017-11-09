@@ -290,7 +290,8 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: #5000E3!important;
+  /*background-color: #5000E3!important;*/
+  background-color: #4c7cff!important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -523,7 +524,8 @@ ul li {
 }
 .faq .panel-default > .panel-heading {
   color: #FFF;
-  background-color: #5000E3;
+  /*background-color: #5000E3; */
+  background-color: #4c7cff;
   border-color: #000;
   border-radius: 0;
   padding: 0;
@@ -615,6 +617,9 @@ ul li {
 
 .purple {
   color: #5000e3;
+}
+.tunahack_blue{
+  color:#4c7cff;
 }
 
 .logo-container {
